@@ -17,17 +17,20 @@ export default function Home() {
           </div> */}
           <h1 className="max-w-4xl text-5xl font-bold md:text-6xl lg:text-6xl">
             {" "}
-            <span className="text-green-800">Sollutin:</span> AI-powered studying companion for online schools
+            <span className="text-green-800">Sollutin:</span> AI-powered
+            studying companion for online schools
           </h1>
           <p className="mt-5 max-w-prose text-zinc-700 sm:text-lg">
-            Sollutin helps educational businesses to significantly lower operational costs by automating the manual work of tutors and coordinators with personalized AI learning companion.
+            Sollutin helps educational businesses to significantly lower
+            operational costs by automating the manual work of tutors and
+            coordinators with personalized AI learning companion.
           </p>
           <Link
             className={buttonVariants({
               size: "lg",
               className: "mt-5",
             })}
-            href="https://calendly.com/nik-belov/15min"
+            href="https://calendly.com/nikita-belov/15min-sollutin"
             target="_blank"
           >
             Book demo <ArrowRight className="ml-2 h-5 w-5" />
